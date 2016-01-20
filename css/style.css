@@ -1,0 +1,390 @@
+body {
+	color: #323232;
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-weight: 300;
+	position: relative;
+}
+
+
+h1 {
+	color: #3dbbd8;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+
+h2 {
+	font-size: 36px;
+}
+
+
+h3 {
+	font-size: 14px;
+	font-weight: 800;
+	margin: 0;
+}
+
+
+h4 {
+	color: #777;
+}
+
+
+p {
+	font-size: 18px;
+}
+
+
+.text-small {
+	font-size: 14px;
+}
+
+
+.text-medium {
+	font-size: 18px;
+}
+
+
+.text-large {
+	font-size: 28px;
+}
+
+
+.text-xlarge {
+	font-size: 32px;
+}
+
+
+.text-muted {
+	/* color: #bcbbbb; */
+	color: #606060;
+}
+
+
+.text-thin {
+	font-weight: 100;
+}
+
+
+.text-inline {
+	display: inline;
+}
+
+
+/* Header */
+
+header {
+	padding: 25px 0;
+    background-color: #f5f6f8;
+}
+
+
+.logo {
+	max-width: 100px;
+}
+
+
+/* Navbar */
+
+.navbar {
+	border-radius: 0;
+	margin: 0;
+}
+
+
+.navbar-default {
+	background-color: #323232;
+	/* background-color: #6DECD7; */
+	border:	none;
+}
+
+
+.navbar-nav {
+	text-align: center;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+	color: #c3c2c2;
+}
+
+
+.navbar-nav>li>a:hover {
+	background-color: #3dbbd8 !important;
+	color: #f1f1f1 !important;
+}
+
+
+.navbar-toggle {
+	background-color: #f1f1f1;
+}
+
+
+.navbar-brand {
+	display: inline;
+	padding: 0 15px;
+}
+
+
+.navbar-brand-title {
+	color: #f1f1f1;
+	display: inline;
+	font-size: 21px;
+	font-weight: 800;
+	line-height: 50px;
+}
+
+
+.logo-sm {
+	max-width: 50px;
+}
+
+
+/* Featured Work */
+
+.featured-work {
+	background-color: #fd7b5e; /* salmon */
+	/* background-color: #d9d9d9; grey */
+}
+
+
+.container-fluid {
+	padding: 0;
+}
+
+
+.img-slide {
+	width: 100%;
+}
+
+
+.carousel-caption {
+	bottom: 40px;
+}
+
+
+.carousel-caption .btn {
+	border-radius: 0;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+
+.carousel-caption .btn-primary {
+	background-color: #3dbbd8;
+	border: none;
+}
+
+
+.carousel-caption .btn-primary:hover {
+	background-color: #389ab1;
+	border: none;
+}
+
+
+.carousel-indicators li {
+	border-radius: 0;
+}
+
+
+.recent-work {
+	padding: 10px 0 50px;
+}
+
+
+.projects-title {
+	color: #fff;
+}
+
+
+.featured-project {
+	margin: 0 0 10px;
+}
+
+
+.img-featured {
+	border: 2px solid #fff;
+}
+
+
+.project-type {
+	color: #f1f1f1;
+	margin: 0 10px;
+	opacity: 0.9;
+	position: absolute;
+	z-index: 10;
+	bottom: 10px;
+}
+
+
+.project-type .btn {
+	border-radius: 0;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+
+.project-type .btn-primary {
+	background-color: #3dbbd8;
+	border: none;
+}
+
+
+.project-type .btn-primary:hover {
+	background-color: #389ab1;
+	border: none;
+}
+
+
+/* Udacity Projects */
+
+.u-projects {
+	background-color: #3dbbd8;
+	border-top: 10px solid #fff;
+	padding: 10px 0 70px;
+}
+
+
+.u-projects-title {
+	color: #555;
+	padding: 20px 0;
+}
+
+
+.u-project {
+	color: #323232;
+	/* color: #3dbbd8; */
+	text-align: center;
+}
+
+
+.u-project a {
+	color: #fff;
+}
+
+
+.u-project a:hover {
+	color: #d0ecf3;
+}
+
+
+.fa-project {
+	font-size: 10em !important;
+	padding: 40px 0 20px;
+}
+
+/* About Me */
+
+.about-me {
+	background-color: #f1f1f1;
+	padding: 40px 0;
+}
+
+
+.profile-picture {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  border: 2px solid white;
+}
+
+
+/* Footer */
+
+footer {
+	margin: 3px 0 0;
+    background-color: #323232;
+    padding: 20px 20px;
+    color: #3dbbd8;
+}
+
+
+.social a {
+	color: #f1f1f1;
+	font-size: 1.75em !important;
+	margin: 0 10px 0 0;
+}
+
+
+.social a:hover {
+	color: #3dbbd8;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+	header {
+	text-align: right;
+	}
+	.social {
+		text-align: left;
+	}
+	.copyright {
+		text-align: right;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 36px;
+	}
+	header,
+	.logo,
+	.recent-work,
+	.about-me {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.logo-sm{
+		display: block !important;
+	}
+	.navbar-brand-title {
+		font-size: 18px;
+	}
+	.dropdown-menu {
+		text-align: center;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: #f1f1f1;
+		font-weight: 300;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+		background-color: #7dd8ec;
+		color: #fff;
+	}
+	.text-large {
+		font-size: 18px;
+	}
+	.featured-project {
+		margin:  0 0px 30px;
+		padding: 0 50px;
+	}
+	.u-projects-title {
+		text-align: center;
+	}
+	.profile-picture {
+		max-width: 30%;
+	}
+	footer {
+		text-align: center;
+		padding: 10px 0;
+	}
+	.social {
+		padding: 0 0 10px;
+	}
+}
+
+
+.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+    /* Position .affix above web page content. Found solution implemented on the Udacity forum website's CSS */
+    z-index: 1000;
+}
